@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+   <head>
+       <title>Crystal Game</title>
+       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+        <script src="http://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+   </head>
+  
+   <body>
+       <container>
+           <div class="row">
+               <div class="col-md-12 title">
+                   <h3>Crystal collector!</h3>
+               </div>
+           </div>
+           <div class="row">
+               <div class="col-md-12 instruction">
+                   <ul>
+                       <li>You will be given a random number at the start of the game. </li>
+                       <li>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score. </li>
+                       <li>You win the game if your total score equals the random number. You will lose if your score exceeds the random number.
+                          
+                       </li>
+                       <li>The value of each crystal is hidden from you until you click on it. </li>
+                       <li>Each time the game starts, both the target score and the value of the crystals will be randomly generated. </li>
+                    <ul>
+                       </div>
+                   <div class="row">
+                       <div class="col-md-6 random">
+                           <div class="randomNum">Random Number:</div>
+                           <h1 id="rand"> 39</h1>
+                       </div>
+                       <div class="col-md-6 winloss">
+                           <ul>
+                               <li> Win: <span id="win"></span></li>
+                               <li> Loss: <span id="loss"></span></li>
+                              
+                           </ul>
+                          
+                       </div>
+                   </div>
+                                   
+                   <div class="row jewels" >
+                      
+                          <div class="jewels" id="jewel1">
+                            <img src="http://artistryingoldjewelry.com/wp-content/uploads/2015/11/amethyst-cluster.png"> 
+                          </div>
+                          <div class="jewels" id="jewel2">
+                            <img src="http://kubergemologicallab.co.in/img/Ruby_logo.png">  
+                          </div>
+                          <div class="jewels" id="jewel3">
+                            <img src="http://www.imarvintpa.com/Mapping/Objects/Items/Treasure/Gems/Gem-C.png">  
+                          </div>
+                          <div class="jewels" id="jewel4">
+                            <img src="http://pngimg.com/uploads/diamond/diamond_PNG6701.png">  
+                          </div>
+                      
+                   </div>
+                  
+                   <div class="row">                     
+                       <h3 class="col-md-12 score"> Your Total score is: </h3>
+                   </div>
+
+                   <div class="row">
+                       <div class="col-md-12 score">
+                           <h2 id="score">0</h2>
+                       </div>
+                   </div>
+
+              
+              
+        <script type="text/javascript" src="assets/javascript/game.js"></script>
+    </container>
+    </body>        
+</html>

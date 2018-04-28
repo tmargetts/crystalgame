@@ -1,0 +1,103 @@
+               /* setting up basic styling and layout */
+
+               body {
+                background-image: url("https://cdnb.artstation.com/p/assets/images/images/003/523/899/large/pavel-sivash-frame-00012.jpg?1474638232");
+               }
+
+               .row {
+               width: 100%;
+               overflow: hidden;
+               padding: 10px;
+               }
+              
+               .instruction {
+               color: lime;
+               font-weight: bold;
+               font-size: 18px;
+               }
+              
+               .instruction ul {
+               list-style: none;
+               text-align: center;
+               }
+
+               .instruction ul li {
+               margin-top: 10px;
+               text-align: center;
+               }
+
+               .title {
+                width: 48%;
+                float: center;
+                padding: 10px;
+                text-align: center; 
+                color: lime;
+                font-size: 26px;
+               }
+
+               .random {
+               color: lime;
+               width: 24%;
+               float: center;
+               padding: 10px;
+               text-align: center;
+               }
+
+               .randomNum {
+                font-size: 26px;
+               }
+
+               .winloss {
+               color: lime;
+               width: 16%;
+               float: center;
+               padding: 10px;
+               font-weight: 26px bold;
+               }
+
+               .winloss ul li {
+                list-style: none;
+                text-align: center;
+                font-weight: 26px;
+               }
+
+
+              
+               .score {
+               color: lime;
+               float: center;  
+               text-align: center;
+               padding: 10px;
+               }
+
+               #jewel1 {
+                display: block;
+                float: center;
+                margin-left: 10px;
+               }
+
+               #jewel2 {
+                display: block;
+                float: center;
+                margin-top: 2%;
+                margin-left: 10px
+               }
+
+               #jewel3 {
+                display: block;
+                float: center;
+                margin-top: 2%;
+                margin-left: 10px;
+               }
+
+               #jewel4 {
+                display: block;
+                float: center;
+                margin-left: 10px;
+               }
+
+               @media only screen and (max-width: 980px) {
+                   
+               }
+
+               
