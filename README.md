@@ -20,3 +20,5 @@ Of course, the user's score (and score counter) will reset to zero.
 The application will show the number of games the player wins and loses. To that end, do not refresh the page as a means to restart the game.
 
 This application was built using HTML, CSS, and Javascript utilizing the JQuery framework. 
+
+:gem:
