@@ -21,4 +21,4 @@ The application will show the number of games the player wins and loses. To that
 
 This application was built using HTML, CSS, and Javascript utilizing the JQuery framework. 
 
-:gem: :diamonds: :large_blue_diamond: :large_orange_diamond:
+:gem: :diamonds: :gem: :large_orange_diamond:
