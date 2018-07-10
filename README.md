@@ -24,4 +24,5 @@ This application was built using HTML, CSS, and Javascript utilizing the JQuery 
 :gem: :diamonds: :gem: :large_orange_diamond:
 
 Play the game from the link below:
+
 [Crystalgame](https://tmargetts.github.io/crystalgame/)
